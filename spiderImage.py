@@ -23,10 +23,10 @@ class MyParser(html.parser.HTMLParser):
         return self.url
 
 
-headers = {'User-Agent': 'Chrome'}
+headers = {'User-Agent': 'IE'}
 downloadHeaders = {
     'mine-type': 'application/x-msdownload',
-    'User-Agent': 'Mozilla/5.0'
+    'User-Agent': 'IE'
 }
 url = "http://jandan.net/ooxx"
 num = 1
